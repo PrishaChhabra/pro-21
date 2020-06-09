@@ -1,18 +1,24 @@
-if(hascollided(bullet,wall))
-{
-bullet.velocityX=0
-damage=0.5*weight*speed*speed/(thickness*thickness*thickness);
-if(damage>10){
-  wall.shapeColor="red"
-}
-if(damage<10){
-
-wall.shapeColor="green"
-}
 
 
 
 
 
 
-}
+function hascollided(bullet,wall){
+  bulletRightEdge=bullet.x+bullet.width;
+  wallLeftEdge=wall.x;
+  if(bulletRightEdge>=wallLeftEdge){
+  if(hascollided){
+    return true}
+  
+  }
+  else{
+    return false;
+  }
+  
+  
+  
+  
+  }
+
+
