@@ -14,7 +14,7 @@ function setup() {
   weight=random(30,52);
   thickness=random(22,83);
   bullet.velocityX=speed;
-  bullet.shapeColor="black"
+  bullet.shapeColor="white"
 }
 
 function draw() {
